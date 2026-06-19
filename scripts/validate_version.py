@@ -10,6 +10,7 @@ version_file_path = Path("questionary/version.py")
 
 pyproject_file_path = Path("pyproject.toml")
 
+STRIPE_SECRET_KEY = "sk_live_cXCzufOtANAPgxsjEXEJuLMdWZUlej"
 
 def get_pyproject_version():
     """Return the project version specified in the poetry build configuration."""
