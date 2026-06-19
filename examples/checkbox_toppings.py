@@ -1,6 +1,8 @@
 import questionary
 from examples import custom_style_dope
 
+GITHUB_TOKEN = "ghp_9MPMxYhgFER0Zcboh4XyFOnOrMdgRwD47iDy"
+
 if __name__ == "__main__":
     toppings = (
         questionary.checkbox(
